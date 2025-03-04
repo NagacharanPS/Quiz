@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="quiz-container">
+      <h1>Quiz</h1>
+      <h2 id="question">Question</h2>
+      <div class="options-container">
+        <ol>
+          <li>
+            <input type="radio" name="radio" class="answer" id="a" />
+            <label id="a_value">Option 1</label>
+          </li>
+          <li>
+            <input type="radio" name="radio" class="answer" id="b" />
+            <label id="b_value">Option 2</label>
+          </li>
+          <li>
+            <input type="radio" name="radio" class="answer" id="c" />
+            <label id="c_value">Option 3</label>
+          </li>
+          <li>
+            <input type="radio" name="radio" class="answer" id="d" />
+            <label id="d_value">Option 4</label>
+          </li>
+        </ol>
+      </div>
+      <button class="btn">Submit</button>
+      <button class="clear-btn" style="display: none">Clear</button>
+    </div>
+  </body>
+</html>
